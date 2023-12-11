@@ -44,6 +44,8 @@ function formatDate(date) {
   return `${formattedDay} ${hours}:${minutes}`;
 }
 
+searchCity("Dublin");
+
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
